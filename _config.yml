@@ -1,2 +1,3 @@
 name:  The Real Slim Shady
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
