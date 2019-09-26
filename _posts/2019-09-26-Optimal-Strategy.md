@@ -16,5 +16,5 @@ You need to determine the maximum possible amouin4t of money you can win if you 
 
 **DP Solution** - [gfg-dp31](https://www.geeksforgeeks.org/optimal-strategy-for-a-game-dp-31/)
 
-**Code** - 
+**Code** - [here](/codes/OptGame.cpp)
 
