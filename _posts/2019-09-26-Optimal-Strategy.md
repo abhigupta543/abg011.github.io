@@ -11,3 +11,5 @@ You are given an array A of size N. The array contains integers and is of even l
 In each turn, a player selects either the first or last coin from the row, removes it from the row permanently, and receives the value of the coin.
 
 You need to determine the maximum possible amouin4t of money you can win if you go first.
+**P.S.** - Both the players use optimum strategy.
+
