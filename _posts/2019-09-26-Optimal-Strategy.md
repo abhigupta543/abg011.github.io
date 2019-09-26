@@ -13,3 +13,7 @@ In each turn, a player selects either the first or last coin from the row, remov
 You need to determine the maximum possible amouin4t of money you can win if you go first.
 
 **P.S.** - Both the players use optimum strategy.
+
+**DP Solution** - [gfg-dp31](https://www.geeksforgeeks.org/optimal-strategy-for-a-game-dp-31/)
+**Code** - 
+
