@@ -1,1 +1,1 @@
-![Image](/images/setOP.png){width=250px}
+![Image](/images/setOP.png | width=250)
