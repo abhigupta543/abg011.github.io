@@ -1,1 +1,1 @@
-![Image](./images/setOP.png = 250x)
+![Image](./images/setOP.png){width=250px}
