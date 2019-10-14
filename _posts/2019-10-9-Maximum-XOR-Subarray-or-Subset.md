@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Maximum XOR Subset"
-date: 2019-09-30
+date: 2019-10-09
 ---
 
 ## Maximum XOR Subset
