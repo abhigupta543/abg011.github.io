@@ -12,7 +12,7 @@ Given a set of positive integers. The task is to complete the function maxSubarr
 
 **Complexity** - O(N)
 
-**Code** - [here](https://github.com/abg011/abg011.github.io/blob/master/codes/MaxXORSubset.cpp)
+**Code** - [here](/codes/MaxXORSubset.cpp)
 
 
 **_Similar problem_** - [Maximum XOR subarray using **TRIES**](https://www.geeksforgeeks.org/find-the-maximum-subarray-xor-in-a-given-array/)
