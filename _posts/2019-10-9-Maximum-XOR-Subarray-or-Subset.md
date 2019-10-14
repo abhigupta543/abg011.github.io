@@ -6,11 +6,14 @@ date: 2019-09-30
 
 ## Maximum XOR Subset
 ### Problem
-You are given an array A of size N. You need to print the total count of sub-arrays having their sum equal to 0
+Given a set of positive integers. The task is to complete the function maxSubarrayXOR which returns an integer denoting the maximum XOR subset value in the given set.
 
 **Solution** - [here](https://www.geeksforgeeks.org/find-maximum-subset-xor-given-set/)
 
 **Complexity** - O(N)
 
 **Code** - [here](/codes/MaxXORSubset.cpp)
+
+
+**_Similar problem_** - [Maximum XOR subarray using **TRIES**](https://www.geeksforgeeks.org/find-the-maximum-subarray-xor-in-a-given-array/)
 
