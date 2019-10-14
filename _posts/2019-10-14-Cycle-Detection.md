@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Find all four sum numbers(Hashing)"
+title: "Cycle Detection"
 date: 2019-10-14
 ---
 
