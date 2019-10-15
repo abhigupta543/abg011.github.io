@@ -12,4 +12,5 @@ Given an array of N distinct elementsA[ ]. The task is to find the minimum numbe
 Matching initial and final positions of the elements, form a graph with cycles. No of swaps in each cycle are one less than the no. of edges.
 
 **Editorial** - [here](https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/)
+
 **Code** - [here](/codes/swapsort.cpp)
