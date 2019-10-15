@@ -17,7 +17,7 @@ int main()
 	}
 }
 
-}
+
 
 int minSwaps(int A[], int N){
     vector<int> B;
