@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Kosaraju's Algorithm for Strongly Connected Components"
-date: 2019-09-26
+date: 2019-11-07
 ---
 
 ## Strongly Connected Components using Kosaraju's Algorithm
