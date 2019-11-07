@@ -13,6 +13,6 @@ You are given an integer N. You have to find smallest multiple of N which consis
 
 ### Solution
 
-Code - [here](codes/multiple_with0or1.cpp)
+Code - [here](/codes/multiple_with0or1.cpp)
 
 Practice - [interviewBit](https://www.interviewbit.com/problems/smallest-multiple-with-0-and-1/)
