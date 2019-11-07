@@ -33,4 +33,4 @@ for (int k = 1; k <= n; k++) {
   }
 }
 ```
-The time complexity of the algorithm is O ( n 3 ), because it contains three nested loops that go through the nodes of the graph. Since the implementation of the Floyd–Warshall algorithm is simple, the algorithm can be a good choice even if it is only needed to find a single shortest path in the graph. However, the algorithm can only be used when the graph is so small that a cubic time complexity is fast enough.
+The time complexity of the algorithm is O ( n^3 ), because it contains three nested loops that go through the nodes of the graph. Since the implementation of the Floyd–Warshall algorithm is simple, the algorithm can be a good choice even if it is only needed to find a single shortest path in the graph. However, the algorithm can only be used when the graph is so small that a cubic time complexity is fast enough.
