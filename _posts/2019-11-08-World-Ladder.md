@@ -13,9 +13,9 @@ Given two words (start and end), and a dictionary, find the shortest transformat
 
 Note:
 
-_All words have the same length.
+_All words have the same length._
 
-_All words contain only lowercase alphabetic characters.
+_All words contain only lowercase alphabetic characters._
 
 **Practice** - [interviewBit](https://www.interviewbit.com/problems/word-ladder-ii/)
 
