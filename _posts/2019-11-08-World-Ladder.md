@@ -18,7 +18,7 @@ Note:
 _All words have the same length._
 
 _All words contain only lowercase alphabetic characters._
-
-**Practice** - [interviewBit](https://www.interviewbit.com/problems/word-ladder-ii/)
+**Practice(return shortest path)** - [interviewBit/word-ladder-i](https://www.interviewbit.com/problems/word-ladder-i/)
+**Practice(print all paths)** - [interviewBit/word-ladder-ii](https://www.interviewbit.com/problems/word-ladder-ii/)
 
 **Code** - [here](/codes/world_ladder.cpp)
