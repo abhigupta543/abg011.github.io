@@ -11,6 +11,8 @@ Given two words (start and end), and a dictionary, find the shortest transformat
 ##### Each intermediate word must exist in the dictionary
 ##### If there are multiple such sequence of shortest length, return all of them. Refer to the example for more details.
 
+P.S. - **_Print all possible paths_**
+
 Note:
 
 _All words have the same length._
