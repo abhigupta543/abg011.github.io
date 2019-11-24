@@ -11,4 +11,5 @@ Given a number N, calculate the count of numbers in {1, 2, 3,..., N} that are re
 
 ## Euler's Totient Function
 - Gives the number of coprime numbers less tha a given number.
+
 ![Image](/images/Eulers_Totient_function.png)
