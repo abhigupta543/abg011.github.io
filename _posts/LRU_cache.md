@@ -1,0 +1,85 @@
+---
+layout: post
+title: "LRU cache implementation"
+date: 2019-11-07
+---
+
+##  Circle of strings
+### Problem
+Design and implement a data structure for LRU (Least Recently Used) cache. It should support the following operations: get and set.
+
+get(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.
+set(key, value) - Set or insert the value if the key is not already present. When the cache reaches its capacity, it should invalidate the least recently used item before inserting the new item.
+The LRU Cache will be initialized with an integer corresponding to its capacity. Capacity indicates the maximum number of unique keys it can hold at a time.
+
+Definition of “least recently used” : An access to an item is defined as a get or a set operation of the item. “Least recently used” item is the one with the oldest access time.
+
+
+### Solution
+Implementaion using a map and a deque
+
+```
+deque<int> DQ;
+unordered_map<int, int> m;
+int c;
+LRUCache::LRUCache(int capacity) {
+    c = capacity;
+    m.clear();
+    DQ.clear();
+}
+
+int LRUCache::get(int key) {
+    if(m.find(key)!=m.end()){
+        int index=-1;
+        for(int i=0; i<DQ.size(); i++){
+            if(DQ[i]==key){
+                index = i;
+                break;
+            }
+        }
+        DQ.erase(DQ.begin()+index);
+        DQ.push_back(key);
+        return m[key];
+    }
+    else return -1;
+}
+
+void LRUCache::set(int key, int value) {
+    if(m.find(key)!=m.end()){
+        m[key]=value;
+        int index=-1;
+        for(int i=0; i<DQ.size(); i++){
+            if(DQ[i]==key){
+                index=i;
+                break;
+            }
+        }
+        DQ.erase(DQ.begin()+index);
+        DQ.push_back(key);
+    }
+    else if(m.size()<c){
+        m[key]=value;
+        DQ.push_back(key);
+    }
+    else{
+        int val = DQ.front();
+        DQ.pop_front();
+        DQ.push_back(key);
+        m.erase(val);
+        m[key]=value;
+    }
+}
+```
+##### get(x)
+2 possible cases i.e. either key is already in the map/deque or not. If yes, return  the value in map, delete earlier entry in deque and push again at the end. If no, return -1;
+
+##### set(x, y)
+If x is in the map, update the value, delete earlier entry in deque, push again at the end.
+
+If not, check if size of of map/deque is less than capacity.
+- If yes, add entry in map, push at the end of deque.
+- Else, pop the front entry in the deque. Also remove it from the map. Push new entry at the back of deque, also new entry int the map.
+
+
+
+
