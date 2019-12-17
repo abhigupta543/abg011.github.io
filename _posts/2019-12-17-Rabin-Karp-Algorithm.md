@@ -3,7 +3,7 @@ layout: post
 title: "Rabin-Karp Algorithm"
 date: 2019-12-17
 ---
-## Rabin Karp Algorithm for Pattern Searching
+## Rabin-Karp Algorithm for Pattern Searching
 ### Problem
 Given a text txt[0..n-1] and a pattern pat[0..m-1], write a function search(char pat[], char txt[]) that prints all occurrences of pat[] in txt[].
 
@@ -48,7 +48,7 @@ int Solution::strStr(const string A, const string B) {
 
 ### Reference - [geeksforgeeks](https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/)
 
-**PS** 
+**P.S.** 
 - Best case and average case complexity **O(n+m)**, while worst case complexity is **O(n x m)**.
 - Involves building a hash function to find value of the string in the moving window.
-- Algorithm with worst case complexity of **O(n)** - KMP Algorithm(https://abg011.github.io/blog/2019/12/17/KMP-Algorithm).
+- Algorithm with worst case complexity of **O(n)** - [KMP Algorithm](https://abg011.github.io/blog/2019/12/17/KMP-Algorithm).
