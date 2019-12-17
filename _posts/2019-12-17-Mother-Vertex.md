@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Finding Mother Vertes in a graph"
+title: "Finding Mother Vertex in a graph"
 date: 2019-12-17
 ---
 
