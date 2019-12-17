@@ -12,7 +12,9 @@ A mother vertex in a graph G = (V,E) is a vertex v such that all other vertices 
 **How to find mother vertex?**
 
 _Case 1_:- **Undirected Connected Graph** : In this case, all the vertices are mother vertices as we can reach to all the other nodes in the graph.
+
 _Case 2_:- **Undirected/Directed Disconnected Graph** : In this case, there is no mother vertices as we cannot reach to all the other nodes in the graph.
+
 _Case 3_:- **Directed Connected Graph** : In this case, we have to find a vertex -v in the graph such that we can reach to all the other nodes in the graph through a directed path.
 
 ### Solution
