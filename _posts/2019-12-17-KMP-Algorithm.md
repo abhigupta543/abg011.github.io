@@ -58,5 +58,5 @@ int Solution::strStr(const string A, const string B) {
 ```
 ### P.S.
 - Naive algorithm takes **O(m x n)** time in worst case whereas for KMP worst case complexity is **O(n)**.
-- Function LPS is used to find longest prefix that is also a suffix for the pattern. 
+- Function [LPS](https://abg011.github.io/blog/2019/12/16/Longest-prefix-suffix) is used to find longest prefix that is also a suffix for the pattern. 
 - Another algorithm for pattern searching [Rabin-Karp Algorithm]()
