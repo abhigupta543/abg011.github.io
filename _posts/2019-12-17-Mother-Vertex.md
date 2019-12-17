@@ -19,7 +19,7 @@ _Case 2_:- **Undirected/Directed Disconnected Graph** : In this case, there is n
 _Case 3_:- **Directed Connected Graph** : In this case, we have to find a vertex -v in the graph such that we can reach to all the other nodes in the graph through a directed path.
 
 ### Solution
-- In a DFS, mother vertex if present is visited last. Based on this approach, time complexity - **O(V+E)** as compared to O(V(V+E)) in naive approach i.e. by DFSing all vertices.
+- In a DFS, mother vertex if present is visited last. Based on this approach, time complexity - **O(V+E)** as compared to **O(V(V+E))** in naive approach i.e. by DFSing all vertices.
 
 _Code_ - 
 ```
